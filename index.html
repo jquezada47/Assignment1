@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Quezada</title>
+        <link href="index.css" rel="stylesheet"
+    </head>
+
+    <body>
+		<input type="radio" name="tabs" id="tab1" checked />
+			<label for="tab1">Home</label>
+		<input type="radio" name="tabs" id="tab2" />
+			<label for="tab2">Resume</label>
+		<input type="radio" name="tabs" id="tab3" />
+			<label for="tab3">External CSS</label>
+		<input type="radio" name="tabs" id="tab4" />
+			<label for="tab4"><span class="words">Georiga State University Computer Science</span> Department</label>
+        <br>
+		<a class="links" href="https://twitch.tv">Twitch</a>
+		<a class="links" href="https://youtube.com">Youtube</a>
+		<a class="links" href="https://www.omegle.com/">Omegle</a>
+        <h1>A piece of Jorge Quezada</h1>
+		<div class="tab content1"><h4>Jorge Quezada</h4>
+<pre><span class="words">Computer Science</span> Major
+Expected Graduation Date: Fall 2020
+Panther #: 002-40-0651
+Email Address: jquezada4@student.gsu.edu
+<a class="links" href="https://github.com/jquezada47">Github Repositories</a>
+<a class="links" href="https://www.linkedin.com/in/jorge-quezada-cs/">LinkedIn Profile</a>
+<img src="0.jpg" alt="Headshot" class ="pic">
+<hr>
+<h4>Favorite Movies</h4>
+<ul><li>The Other Guys</li>
+<li>Step Brothers</li>
+<li>Napoleon Dynamite</li>
+<li>Monsters Inc.</li>
+<li>Lone Survivor</li>
+</ul>
+<hr>
+<h4>Favorite TV Shows</h4>
+<ol><li>Naruto</li>
+<li>Avatar: The Last Airbender</li>
+<li>The Office</li>
+<li>Seven Deadly Sins</li>
+<li>Fullmetal Alchemist</li>
+</ol>
+<h4>Favorite Quote</h4>
+<div><h5>“There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.” - Ernest Hemingway</h5>
+</div>
+<table >
+  <tr class="rip">
+    <th>#</th>
+    <th>Server Link</th>
+    <th>Github Link</th>
+  </tr>
+  <tr>
+    <td  colspan="3" >Assignments</td>
+    
+  </tr>
+  <tr class="rip">
+    <td>1</td>
+    <td>Assignment 1</td>
+    <td></td>
+  </tr>
+  <tr >
+    <td>2</td>
+    <td>Assignment 2</td>
+    <td></td>
+  </tr>
+
+  <tr class="rip">
+    <td>3</td>
+    <td>Assignment 3</td>
+    <td></td>
+  </tr>
+
+  <tr >
+    <td colspan="3"><span class="words">Project</span>s</td>
+  </tr>
+
+   <tr class="rip">
+    <td>1</td>
+    <td></td>
+    <td></td>
+  </tr>
+   <tr >
+    <td>2</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+</pre>
+</div>
+	<div class="tab content2"><div id="header"></div>
+<div class="left"></div>
+<div class="stuff">
+  <br><br>
+  <h1>Resume</h1>
+  <h2>Jorge Quezada</h2>
+  <hr>
+  <br>
+  <p class="head"><h4>Education</h4></p>
+  <hr>
+  <ul>
+    <li>Bachelor's Degree - <span class="words">Computer Science</span> 				|					Dec 2020</li>
+  </ul>
+  <p class="projects"><h4><span class="words">Project</span>s</h4></p>
+  <dl>
+  <hr>
+  <dt><a class="links" href="https://devpost.com/software/foodisah"><h5>2019 GSU Hackathon - Foodiesah</h5></a></dt>
+	<dd>Developed a web-app that took menu data from various restaurants and displayed them in a central UI.</dd>
+  <dt><a class="links" href="https://github.com/CSC2720-Spring2019/FinalProject"><h5>Dated Notes</h5></a></dt>
+<dd><pre>A Java <span class="words">program</span> enabling the user to enter notes and retrieve saved notes entered into a Linked List
+Group <span class="words">project</span>
+	Developed parseDate function and Note entry
+Developed with use of binary trees, Linked Lists and Stacks</pre></dd>
+	<dt><a class="links" href="https://github.com/jquezada47/Ciphertext">Cipher text</a></dt>
+	<dd><pre>Java implementation of a symmetric cipher with a randomly generated 24-bit key
+Used for encryption and decryption of a message</pre></dd>
+  </dl>
+  <p class="skills"><h4>Skills</h4></p>
+  <hr>
+  <ul><li><span class="words">Program</span>ming: Java, Python, C, HTML/CSS</li>
+  <li>Tools: Unix/Linux, Putty, Git, Github, Eclipse</li></ul>
+  <p class="experience"><h4>Experience</h4></p>
+  <hr>
+    <dl>
+    <dt><h5>FitzGerald and Son’s Plumbing – Peachtree City, GA </h5><h6>Pre-fabrication/Plumber’s Assistant</h6></dt>
+	<dd><pre>- Built copper bathroom carriers and PVC pipe designs
+- Assembled and cut material according to design
+- Reevaluated design layouts
+- Installed copper, cast iron, and PVC pipes</pre></dd>
+	<dt><h5>Kroger – Peachtree City, GA</h5> <h6>Grocery Clerk</h6></dt>
+	<dd><pre>- Managed inventory and equipment
+- Stocked inventory
+- Trained employees
+- Ensured customer satisfaction and store cleanliness</pre></dd>
+  </dl>
+</div>
+<div class="right"></div>
+</div>
+		<div class="tab content3"><pre>External CSS File
+input { display: none; }
+input + label { display: inline-block }
+
+input ~ .tab { display: none }
+#tab1:checked ~ .tab.content1,
+#tab2:checked ~ .tab.content2,
+#tab3:checked ~ .tab.content3,
+#tab4:checked ~ .tab.content4 { display: block; }
+
+input + label {
+  border: 1px solid #999;
+  background: #EEE;
+  padding: 4px 12px;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+  top: 1px;
+}
+input:checked + label {
+  background: #FFF;
+  border-bottom: 1px solid transparent;
+}
+input ~ .tab {
+  border-top: 1px solid #999;
+  padding: 12px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+  width: 100%;
+  
+}
+.links:hover {
+	transform: scale(3);
+  color:green;
+}
+.pic {
+width="400" ;height="400"; float:right;}
+.words{
+	color:red;
+font-weight:bolder;}
+.rip{background:teal}</pre></div>
+		<div class="tab content4"><a class="links" href="http://www.cs.gsu.edu/">GSU Computer Science Department</a></div> 
+    </body>
+</html>
